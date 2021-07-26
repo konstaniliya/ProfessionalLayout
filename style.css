@@ -302,9 +302,7 @@
   padding-left: 32px;
   padding-right: 32px;
 }
-.socialCards:hover {
-  background-color: rgb(238, 201, 245);
-}
+
 
 .subscriptionContent {
   display: flex;
@@ -387,10 +385,15 @@ color: #222224;
 }
 
  .socialCards {
-   width: 32px;
-   height: 32px;
-   background-color: white;
+    width: 52px;
+    height: 52px;
+    background-color: #ffffff;
+    padding: 4px 4px;
  }
+
+.socialCards:hover {
+    background-color: #fa586d;
+}
  
 
  footer {
