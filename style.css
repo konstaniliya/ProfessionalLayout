@@ -5,6 +5,7 @@
     font-style: normal;
     font-weight: normal;
   }
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -20,18 +21,21 @@
   justify-content: space-between;
 }
 
+
 .led1 {
     padding-left:41px;  
+
 }
 
 .led2 {
   padding-right:33px;  
 }
 
+
 .textHeaderLogo {
   font-weight: 900;
   font-size: 48px;
-  line-height: 58px;
+  line-height: 32px;
 }
 
 .logo {
@@ -48,13 +52,14 @@
 }
 
 .mainText {
-    text-transform:uppercase;
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 58px;  
-    width: 377px; 
+    text-transform:uppercase;  
+    width: 500px; 
     color: #222222;
-    margin-left: 13px;
+    padding-left: 13px;
+    border-left-style: solid;
+    border-left-width: 16px;
+    border-left-color: rgb(255, 120, 143);
+
 }
 
 .cardsBottom {
@@ -75,8 +80,8 @@
 .pinkText {
     color: rgb(255, 120, 143);
     text-transform: uppercase;
-    font-weight: 700;
-    font-size: 24px;
+    font-weight: 400;
+    font-size:32px;
     line-height: 38.4px; 
 }
 
@@ -359,6 +364,32 @@ color: #222224;
   padding-bottom: 12px;
 }
 
+.buttonCatalog {
+  background: #1f40ff;
+  border-top-right-radius: 32px;
+  border-bottom-right-radius: 32px;
+  border-style: none;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.searchArea {
+  background: #E1E1E1;
+  border-top-left-radius: 32px;
+  border-bottom-left-radius: 32px;
+  border-style: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  padding-right: 104px;
+  cursor:text;
+}
+
 .emailArea {
   background: #E1E1E1;
   border-top-left-radius: 32px;
@@ -371,6 +402,19 @@ color: #222224;
   padding-right: 104px;
   padding-top: 12px;
   padding-bottom: 12px;
+  cursor:text;
+}
+.emailArea:focus {
+  outline-style: none;
+}
+.button:focus {
+  outline-style: none;
+}
+.searchArea:focus {
+  outline-style: none;
+}
+.buttonCatalog:focus {
+  outline-style: none;
 }
 .form {
   display: flex;
@@ -385,14 +429,15 @@ color: #222224;
 }
 
  .socialCards {
-    width: 52px;
-    height: 52px;
+     width: 32px;
+     height: 32px;
     background-color: #ffffff;
     padding: 4px 4px;
  }
 
 .socialCards:hover {
-    background-color: #fa586d;
+    background-color: #08af8d;
+    filter: invert(100%);
 }
  
 
@@ -406,3 +451,240 @@ color: #222224;
   padding: 24px 16px;
   align-items: center;
  }
+
+
+
+ .mega-box {
+   display: none;
+   border: 1px solid #e8e8e8;
+   background-color: #ffffff;
+   padding: 20px;
+   border-radius: 5px;
+   position: absolute;
+   top: 60px;
+   right: -190px;
+
+ }
+
+.userImg {
+  width: 36px;
+  height: 36px;
+}
+
+ .newList {
+   position: relative;
+   padding: 12px;
+ }
+
+ .last:hover .mega-box {
+   right: 0;
+   left: auto;
+ }
+
+
+
+
+
+ .mega-heading {
+   width: 235px;
+   border-bottom: 1px solid #e8e8e8;
+   padding: 8px;
+   margin-bottom: 8px;
+   font-size: 14px;
+   font-weight: 400;
+   text-transform: uppercase;
+ }
+
+ .mega-link {
+   display: block;
+     color: #646464;
+     font-size: 14px;
+     font-weight: 200;
+     text-decoration: none;
+     line-height: 28px;
+ }
+
+ .mega-link:hover {
+  color:#F16d7f;
+}
+
+ .menu-item {
+     margin-right: 46px;
+ }
+
+ .menu-item:last-of-type {
+     margin-right: 0;
+ }
+
+ .mega-box:before {
+     content: "";
+     display: block;
+     width: 12px;
+     height: 12px;
+     background-color: #fff;
+     position: absolute;
+     transform: rotate(45deg);
+     top: -7px;
+     left: 36px;
+     border-left: 1px solid #e8e8e8;
+     border-top: 1px solid #e8e8e8;
+ }
+
+ .newList:hover .mega-box {
+  display: flex;
+}
+
+.rightMenuList {
+ list-style-type: none;
+ display: flex;
+ align-items: center;
+}
+
+.last:hover .mega-box:before {
+  right: 55px;
+  left: auto;
+}
+
+.formCatalog {
+  position: absolute;
+  right: auto;
+  left: 40px;
+  top: 0;
+  }
+
+.searchEngine {
+  position: relative;
+  margin-left: 16px;
+}
+
+.leftMenu {
+  display: flex;
+  align-items: center;
+}
+
+summary {
+    display: block;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary:focus {
+  outline: none;
+}
+
+.headerCatalog {
+    background: #F8F3F4;
+
+}
+.headerCatalogText {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.catalogHeaderText {
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    font-weight: 400;
+}
+.catalogLinkText {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+}
+.navMenu {
+    text-decoration: none;
+}
+
+.navMenu:hover {
+    color: #F16D7F;
+    font-weight: bold;
+}
+
+.pinkTextCatalog {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+    text-decoration: none;
+}
+.categoriesText {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    text-transform: uppercase;
+    padding-right: 11px;
+}
+.categories {
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+}
+.filterText {
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.filterText:hover {
+    color: #F16D7F;
+}
+
+.filterButtons {
+    display: flex;
+    padding-left: 304px;
+}
+.filterCard {
+    padding-right: 29px;
+    display: flex;
+}
+.navPageBlock {
+    border: 1px solid #EBEBEB;
+    width: 284px;
+    margin-bottom: 96px;
+    border-radius: 6px;
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+.pageNavigation {
+    display: flex;
+    justify-content: center;
+}
+.navText {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #c9c8c8;
+}
+.navText:hover {
+    color: #F16D7F;
+}
+.pageLink {
+    text-decoration: none;
+}
+
+/*Down here because working offline sometimes*/
+@font-face {
+    font-family: 'Lato';
+    src: url("fonts/Lato-Regular.ttf") format('truetype'),
+         url("fonts/Lato-Black.ttf") format('truetype'),
+         url("fonts/Lato-Light.ttf") format('truetype'),
+         url("fonts/Lato-Regular.ttf") format('truetype'),
+         url("fonts/Lato-Thin.ttf") format('truetype');
+}
+
+
+
+
