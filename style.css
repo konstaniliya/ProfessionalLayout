@@ -82,11 +82,7 @@
     text-transform: uppercase;
     font-weight: 400;
     font-size:32px;
-<<<<<<< HEAD
     line-height: 38px;
-=======
-    line-height: 38.4px; 
->>>>>>> lesson2
 }
 
 .logoMan {
@@ -407,32 +403,6 @@ color: #222224;
   cursor:text;
 }
 
-.buttonCatalog {
-  background: #1f40ff;
-  border-top-right-radius: 32px;
-  border-bottom-right-radius: 32px;
-  border-style: none;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
-  color: #FFFFFF;
-  padding-right: 32px;
-  padding-left: 32px;
-}
-
-.searchArea {
-  background: #E1E1E1;
-  border-top-left-radius: 32px;
-  border-bottom-left-radius: 32px;
-  border-style: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  text-align: center;
-  padding-right: 104px;
-  cursor:text;
-}
-
 .emailArea {
   background: #E1E1E1;
   border-top-left-radius: 32px;
@@ -506,10 +476,7 @@ color: #222224;
    position: absolute;
    top: 60px;
    right: -190px;
-<<<<<<< HEAD
    z-index: 1;
-=======
->>>>>>> lesson2
 
  }
 
@@ -619,7 +586,6 @@ summary:focus {
   outline: none;
 }
 
-<<<<<<< HEAD
 .headerCatalogCard {
     background: #F8F3F4;
 }
@@ -645,18 +611,6 @@ summary:focus {
 
 
 
-=======
-.headerCatalog {
-    background: #F8F3F4;
-
-}
-.headerCatalogText {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
->>>>>>> lesson2
 .catalogHeaderText {
     font-size: 24px;
     line-height: 29px;
@@ -695,14 +649,8 @@ summary:focus {
 }
 .categories {
     display: flex;
-<<<<<<< HEAD
     padding: 50px 32px 30px 32px;
     position: relative;
-=======
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 32px;
->>>>>>> lesson2
 }
 .filterText {
     font-size: 14px;
@@ -714,7 +662,6 @@ summary:focus {
     padding-right: 10px;
 }
 
-<<<<<<< HEAD
 .filterCard:hover .filterText {
     color: #F16D7F;
 }
@@ -727,7 +674,6 @@ summary:focus {
     display: flex;
     align-items: baseline;
     position: relative;
-    padding-bottom: 20px;
 }
 .filterBlock:hover .mega-box {
     display: flex;
@@ -749,37 +695,15 @@ summary:focus {
     padding-bottom: 20px;
     display: flex;
     position: relative;
-=======
-.filterText:hover {
-    color: #F16D7F;
-}
-
-.filterButtons {
-    display: flex;
-    padding-left: 304px;
-}
-.filterCard {
-    padding-right: 29px;
-    display: flex;
->>>>>>> lesson2
 }
 .navPageBlock {
     border: 1px solid #EBEBEB;
     width: 284px;
     margin-bottom: 96px;
     border-radius: 6px;
-<<<<<<< HEAD
     padding: 16px 16px 16px 16px;
     display: flex;
     justify-content: space-between;
-=======
-    padding-right: 16px;
-    padding-left: 16px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 16px;
-    padding-top: 16px;
->>>>>>> lesson2
 }
 .pageNavigation {
     display: flex;
