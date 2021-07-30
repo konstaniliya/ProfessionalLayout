@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Lato;
+    font-family: Lato, serif;
     font-style: normal;
     font-weight: normal;
   }
@@ -71,7 +71,7 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 32px;
-    line-height: 38.4px;    
+    line-height: 38px;
     color: #222222;
 }
 
@@ -82,7 +82,7 @@
     text-transform: uppercase;
     font-weight: 400;
     font-size:32px;
-    line-height: 38.4px; 
+    line-height: 38px;
 }
 
 .logoMan {
@@ -193,10 +193,10 @@
 }
 
 .cardGood {
-    box-sizing: content-box;
     background: #F8F8F8;
     width: 360px;
     margin-bottom: 26px;
+    position: relative;
 }
 
 .priceText {
@@ -229,6 +229,23 @@
     margin-left: auto;
     margin-right: auto;
 }
+.basketImage {
+    position: absolute;
+    right: auto;
+    left: 290px;
+    top: 10px;
+    padding: 5px 5px 5px 5px;
+    border: 2px solid transparent;
+    
+    background-color: #9b2040;
+}
+
+.basketImage:hover {
+    /*background-color: #0e7d71;*/
+    background-color: #000c9d;
+    filter: invert(0);
+
+}
 
 .buttonText {
   font-size: 16px;
@@ -249,7 +266,7 @@
 
 .textInfo {
   font-weight: 300;
-  font-size: 13.972px;
+  font-size: 14px;
   line-height: 17px;
   text-align: center;
   color: #FBFBFB;
@@ -257,7 +274,7 @@
 }
 
 .textWhite {
-  font-size: 19.96px;
+  font-size: 20px;
   line-height: 24px;
   color: #FBFBFB;
   padding-bottom: 16px;
@@ -325,7 +342,6 @@
 }
 
 .boldText {
-  font-weight: bold;
   font-weight: 900;
   text-transform: uppercase;
 }
@@ -358,10 +374,7 @@ color: #222224;
   line-height: 17px;
   text-align: center;
   color: #FFFFFF;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 12px 32px 12px 32px;
 }
 
 .buttonCatalog {
@@ -463,6 +476,7 @@ color: #222224;
    position: absolute;
    top: 60px;
    right: -190px;
+   z-index: 1;
 
  }
 
@@ -572,16 +586,31 @@ summary:focus {
   outline: none;
 }
 
-.headerCatalog {
+.headerCatalogCard {
     background: #F8F3F4;
-
 }
+
 .headerCatalogText {
     display: flex;
     justify-content: space-between;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding: 60px 20px 60px 20px;
 }
+
+
+.addContent {
+    background-color: #bfebfd;
+    box-shadow: 0 0 5px gray;
+    display: none;
+}
+.mega-link:hover .addContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
 .catalogHeaderText {
     font-size: 24px;
     line-height: 29px;
@@ -620,9 +649,8 @@ summary:focus {
 }
 .categories {
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 32px;
+    padding: 50px 32px 30px 32px;
+    position: relative;
 }
 .filterText {
     font-size: 14px;
@@ -634,29 +662,48 @@ summary:focus {
     padding-right: 10px;
 }
 
-.filterText:hover {
+.filterCard:hover .filterText {
     color: #F16D7F;
 }
+.filterCard:hover .mega-box {
+    display: flex;
+    top: 35px;
+    right: -215px;
+}
+.filterBlock {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+}
+.filterBlock:hover .mega-box {
+    display: flex;
+    top: 32px;
+    right: -240px;
+    left: auto;
+}
+
+
 
 .filterButtons {
     display: flex;
-    padding-left: 304px;
+    position: absolute;
+    left: 35%;
+    right: auto;
 }
 .filterCard {
     padding-right: 29px;
+    padding-bottom: 20px;
     display: flex;
+    position: relative;
 }
 .navPageBlock {
     border: 1px solid #EBEBEB;
     width: 284px;
     margin-bottom: 96px;
     border-radius: 6px;
-    padding-right: 16px;
-    padding-left: 16px;
+    padding: 16px 16px 16px 16px;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 16px;
-    padding-top: 16px;
 }
 .pageNavigation {
     display: flex;
