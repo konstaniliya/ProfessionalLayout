@@ -674,6 +674,7 @@ summary:focus {
     display: flex;
     align-items: baseline;
     position: relative;
+    padding-bottom: 20px;
 }
 .filterBlock:hover .mega-box {
     display: flex;
