@@ -857,10 +857,17 @@ summary:focus {
   border: 1px solid #FF6A6A;
 }
 
-.arrow {
+.arrowLeft {
   padding: 13px;
   background: rgba(42, 42, 42, 0.15);
 }
+.arrowRight {
+  padding: 13px;
+  background: rgba(42, 42, 42, 0.15);
+  transform: rotate(180deg);
+}
+
+
 
 
 
