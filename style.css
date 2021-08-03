@@ -757,13 +757,16 @@ summary:focus {
 }
 /*card page*/
 .goodDemoPhoto {
-    background-color: rgba(243, 243, 243, 0.85);
-    height: 420px;
-    background-image: url("img/card1.png");
+    background-color: rgb(247 247 247);
+    min-height: 777px;
+    background-image: url("img/cartimage.png");
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: -32px;
-    padding-bottom: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
 }
 .cardPage {
     margin-bottom: 0;
@@ -853,6 +856,12 @@ summary:focus {
   color: #ffffff;
   border: 1px solid #FF6A6A;
 }
+
+.arrow {
+  padding: 13px;
+  background: rgba(42, 42, 42, 0.15);
+}
+
 
 
 
