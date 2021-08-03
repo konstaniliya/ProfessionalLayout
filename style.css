@@ -182,7 +182,7 @@
 
 .catalog {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 49px;
 }
@@ -198,9 +198,22 @@
     margin-bottom: 26px;
     position: relative;
 }
+.cardGood:hover {
+    box-shadow: 0 5px 8px rgba(0,0,0,0.16);
+}
+.cardGood:hover .catalogImage {
+    filter: brightness(30%);
+}
+
+
+.cardLink {
+    text-decoration: none;
+    display: block;
+}
 
 .priceText {
   font-size: 16px;
+    font-weight: 700;
   line-height: 19px;
   color: #F16D7F;
   margin-bottom: 20px;
@@ -211,6 +224,7 @@
   font-size: 13px;
   line-height: 16px;
   margin-bottom: 12px;
+    background-color: #f7e4e2;
   text-transform: uppercase;
 }
 
@@ -224,28 +238,35 @@
 
 .catalogImage {
     padding-bottom: 25px;
-    height: 420px;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.basketImage {
+
+.add {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.add-box {
     position: absolute;
-    right: auto;
-    left: 290px;
-    top: 10px;
-    padding: 5px 5px 5px 5px;
-    border: 2px solid transparent;
-    
-    background-color: #9b2040;
+    top: 178px;
+    display: none;
+    justify-content: center;
+    width: 100%;
+}
+.cardGood:hover .add-box{
+    display: flex;
+}
+.add:hover {
+    box-shadow: 0 0 10px #ffffff;
 }
 
-.basketImage:hover {
-    /*background-color: #0e7d71;*/
-    background-color: #000c9d;
-    filter: invert(0);
 
-}
 
 .buttonText {
   font-size: 16px;
@@ -476,9 +497,10 @@ color: #222224;
    position: absolute;
    top: 60px;
    right: -190px;
+   left: auto;
    z-index: 1;
-
  }
+
 
 .userImg {
   width: 36px;
@@ -608,14 +630,12 @@ summary:focus {
     align-items: flex-start;
 }
 
-
-
-
 .catalogHeaderText {
     font-size: 24px;
     line-height: 29px;
     color: #F16D7F;
     font-weight: 400;
+    text-transform: uppercase;
 }
 .catalogLinkText {
     font-weight: 300;
@@ -667,20 +687,31 @@ summary:focus {
 }
 .filterCard:hover .mega-box {
     display: flex;
-    top: 35px;
+    top: 25px;
     right: -215px;
 }
 .filterBlock {
     display: flex;
     align-items: baseline;
     position: relative;
+    padding-bottom: 15px;
 }
 .filterBlock:hover .mega-box {
     display: flex;
-    top: 32px;
+    top: 26px;
     right: -240px;
     left: auto;
 }
+/*Footer press down*/
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.top {
+    flex-grow: 1;
+}
+/*Footer press down*/
 
 
 
@@ -722,7 +753,83 @@ summary:focus {
     text-decoration: none;
 }
 
-/*Down here because working offline sometimes*/
+.CardCatalogPage {
+    background-color: transparent;
+}
+/*card page*/
+.goodDemoPhoto {
+    background-color: rgba(243, 243, 243, 0.85);
+    height: 420px;
+    background-image: url("img/card1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: -32px;
+    padding-bottom: 150px;
+}
+.cardPage {
+    margin-bottom: 0;
+}
+.demoPhoto {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -20px;
+}
+.goodSelect {
+    background-color: #ffffff;
+    padding: 32px 0 32px 0;
+    margin-bottom: 62px;
+    box-shadow: 0 5px 8px rgba(0,0,0,0.16);
+    z-index: 1;
+}
+.cardMainHeader {
+    margin-bottom: 16px;
+    text-align: center
+}
+.cardTextHeader {
+    margin-bottom: 16px;
+    text-align: center
+}
+.cardText {
+    margin-bottom: 36px;
+    text-align: center
+}
+.cardPrice {
+    margin-bottom: 26px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 19px;
+    color: #F16D7F;
+}
+.CartButton {
+    background-color: #F16d7f;
+    color: #ffffff;
+}
+.cartSelection {
+    margin-bottom: 32px;
+}
+.filterButtonsCart {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.cartButton {
+    margin-bottom: 0;
+}
+.BrowseButton:hover {
+    box-shadow: 0 5px 8px rgba(0,0,0,0.46);
+}
+.megaHeadingCart {
+    width: 90px;
+}
+.filterCard:hover .mega-box-cart {
+    top: 25px;
+    right: -70px;
+    left: auto;
+}
+
+
+/*Down here, working offline sometimes*/
 @font-face {
     font-family: 'Lato';
     src: url("fonts/Lato-Regular.ttf") format('truetype'),
@@ -730,6 +837,8 @@ summary:focus {
          url("fonts/Lato-Light.ttf") format('truetype'),
          url("fonts/Lato-Regular.ttf") format('truetype'),
          url("fonts/Lato-Thin.ttf") format('truetype');
+    font-style: normal;
+    font-weight: normal;
 }
 
 
