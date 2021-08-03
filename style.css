@@ -272,8 +272,7 @@
   font-size: 16px;
   line-height: 19px;
   color: #F26376;
-  border: 1px solid #FF6A6A;
-  padding: 15px 37px;
+  padding: 14px 0px 14px 23px;
 }
 
 .BrowseButton {
@@ -782,39 +781,52 @@ summary:focus {
     z-index: 1;
 }
 .cardMainHeader {
-    margin-bottom: 16px;
-    text-align: center
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 14px;
 }
 .cardTextHeader {
-    margin-bottom: 16px;
-    text-align: center
+    margin-bottom: 12px;
+    margin-top: 12px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4D4D4D;
+    text-transform: uppercase;
 }
 .cardText {
-    margin-bottom: 36px;
-    text-align: center
+    margin-bottom: 32px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #5E5E5E;
+    max-width: 555px;
 }
 .cardPrice {
-    margin-bottom: 26px;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 19px;
-    color: #F16D7F;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  color: #EF5B70;
+  border-bottom: 1px solid #EAEAEA;
+  padding-bottom: 65px;
+  text-align: center;
+  width: 641px;
+
 }
-.CartButton {
-    background-color: #F16d7f;
-    color: #ffffff;
-}
+
 .cartSelection {
     margin-bottom: 32px;
 }
 .filterButtonsCart {
     display: flex;
     justify-content: center;
-    margin-bottom: 120px;
+    margin-bottom: 49px;
+    margin-top: 65px;
 }
 .cartButton {
-    margin-bottom: 0;
+    margin-bottom: 65px;
 }
 .BrowseButton:hover {
     box-shadow: 0 5px 8px rgba(0,0,0,0.46);
@@ -827,6 +839,21 @@ summary:focus {
     right: -70px;
     left: auto;
 }
+
+
+.cartDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttonContent {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  border: 1px solid #FF6A6A;
+}
+
 
 
 /*Down here, working offline sometimes*/
