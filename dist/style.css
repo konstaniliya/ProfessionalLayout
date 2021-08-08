@@ -18,12 +18,8 @@
 }
 
 .frontMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .led1 {
@@ -47,12 +43,8 @@
 }
 
 .logoContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   height: 764px;
 }
 
@@ -94,25 +86,17 @@
 
 .brandTextContent {
   max-height: 93px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
+  align-self: center;
   margin-right: 331px;
   margin-top: 290px;
   margin-bottom: 381px;
 }
 
 .cardsHead {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   padding-bottom: 30px;
 }
 
@@ -187,14 +171,9 @@
 }
 
 .catalog {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
   margin-bottom: 49px;
 }
 
@@ -211,13 +190,11 @@
 }
 
 .cardGood:hover {
-  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
 }
 
 .cardGood:hover .catalogImage {
-  -webkit-filter: brightness(30%);
-          filter: brightness(30%);
+  filter: brightness(30%);
 }
 
 .cardLink {
@@ -262,36 +239,25 @@
   border: 1px solid #ffffff;
   padding: 10px;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .add-box {
   display: none;
   position: absolute;
   top: 178px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   width: 100%;
 }
 
 .cardGood:hover .add-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .add:hover {
-  -webkit-box-shadow: 0 0 10px #ffffff;
-          box-shadow: 0 0 10px #ffffff;
+  box-shadow: 0 0 10px #ffffff;
 }
 
 .buttonText {
@@ -338,53 +304,29 @@
 }
 
 .addInfo {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .delivery {
   max-width: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sales {
   max-width: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quality {
   max-width: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .subscription {
@@ -398,11 +340,8 @@
 }
 
 .subscriptionContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .textSubscription {
@@ -421,16 +360,9 @@
 
 .helloImage {
   width: 360px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .textHello {
@@ -441,8 +373,6 @@
 }
 
 .subscriptionForm {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -516,16 +446,9 @@
 }
 
 .form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footerText {
@@ -543,8 +466,7 @@
 
 .socialCards:hover {
   background-color: #08af8d;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 footer {
@@ -552,16 +474,10 @@ footer {
 }
 
 .footerContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 24px 16px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .mega-box {
@@ -630,8 +546,7 @@ footer {
   height: 12px;
   background-color: #fff;
   position: absolute;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
   top: -7px;
   left: 36px;
   border-left: 1px solid #e8e8e8;
@@ -639,19 +554,13 @@ footer {
 }
 
 .newList:hover .mega-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .rightMenuList {
   list-style-type: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .last:hover .mega-box:before {
@@ -672,12 +581,8 @@ footer {
 }
 
 .leftMenu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 summary {
@@ -697,33 +602,21 @@ summary:focus {
 }
 
 .headerCatalogText {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   padding: 60px 20px 60px 20px;
 }
 
 .addContent {
   background-color: #bfebfd;
-  -webkit-box-shadow: 0 0 5px gray;
-          box-shadow: 0 0 5px gray;
+  box-shadow: 0 0 5px gray;
   display: none;
 }
 
 .mega-link:hover .addContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .catalogHeaderText {
@@ -768,8 +661,6 @@ summary:focus {
 }
 
 .categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 50px 32px 30px 32px;
   position: relative;
@@ -790,27 +681,19 @@ summary:focus {
 }
 
 .filterCard:hover .mega-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   top: 25px;
   right: -215px;
 }
 
 .filterBlock {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: baseline;
   position: relative;
   padding-bottom: 15px;
 }
 
 .filterBlock:hover .mega-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   top: 26px;
   right: -240px;
@@ -819,26 +702,17 @@ summary:focus {
 
 /*Footer press down*/
 .wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   min-height: 100vh;
 }
 
 .top {
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-grow: 1;
 }
 
 /*Footer press down*/
 .filterButtons {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: absolute;
   left: 35%;
@@ -848,8 +722,6 @@ summary:focus {
 .filterCard {
   padding-right: 29px;
   padding-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   position: relative;
 }
@@ -860,21 +732,13 @@ summary:focus {
   margin-bottom: 96px;
   border-radius: 6px;
   padding: 16px 16px 16px 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .pageNavigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .navText {
@@ -904,15 +768,9 @@ summary:focus {
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: -32px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .cardPage {
@@ -920,12 +778,8 @@ summary:focus {
 }
 
 .demoPhoto {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: -20px;
 }
 
@@ -933,8 +787,7 @@ summary:focus {
   background-color: #ffffff;
   padding: 32px 0 32px 0;
   margin-bottom: 62px;
-  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
-          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
   z-index: 1;
 }
 
@@ -981,12 +834,8 @@ summary:focus {
 }
 
 .filterButtonsCart {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-bottom: 49px;
   margin-top: 65px;
 }
@@ -996,8 +845,7 @@ summary:focus {
 }
 
 .BrowseButton:hover {
-  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.46);
-          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.46);
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.46);
 }
 
 .megaHeadingCart {
@@ -1011,27 +859,15 @@ summary:focus {
 }
 
 .cartDescription {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .buttonContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   color: #ffffff;
   padding: 12px;
   border: 2px solid #ff788f;
@@ -1045,20 +881,17 @@ summary:focus {
 .arrowRight {
   padding: 13px;
   background: rgba(42, 42, 42, 0.15);
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(180deg);
 }
 
 .arrowLeft:hover {
   background-color: #08af8d;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 .arrowRight:hover {
   background-color: #08af8d;
-  -webkit-filter: invert(100%);
-          filter: invert(100%);
+  filter: invert(100%);
 }
 
 .basketImage {
@@ -1067,30 +900,18 @@ summary:focus {
 
 /*Shopping Cart*/
 .cartContent {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .formCart {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   margin-bottom: 64px;
 }
 
 .item {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 40px;
   width: 652px;
@@ -1098,17 +919,12 @@ summary:focus {
 }
 
 .item:hover {
-  -webkit-box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
-          box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
+  box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13);
 }
 
 .itemTop {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -1176,18 +992,13 @@ summary:focus {
 }
 
 .cartControls {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 129px;
 }
 
 .cartButton2:hover {
-  -webkit-box-shadow: 0px 0px 4px 0px black;
-          box-shadow: 0px 0px 4px 0px black;
+  box-shadow: 0px 0px 4px 0px black;
 }
 
 .cartControlLink {
@@ -1220,15 +1031,11 @@ summary:focus {
 }
 
 .shippingButton:hover {
-  -webkit-box-shadow: 0px 0px 4px 0px black;
-          box-shadow: 0px 0px 4px 0px black;
+  box-shadow: 0px 0px 4px 0px black;
 }
 
 .shipping {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .blackTextCart {
@@ -1288,20 +1095,17 @@ summary:focus {
 }
 
 .cartSubmitButton:hover {
-  -webkit-box-shadow: 1px 0px 10px 9px #afccf8;
-          box-shadow: 1px 0px 10px 9px #afccf8;
+  box-shadow: 1px 0px 10px 9px #afccf8;
 }
 
 .summaryContent:hover {
-  -webkit-box-shadow: 1px 0px 10px 9px #b9e6f8;
-          box-shadow: 1px 0px 10px 9px #b9e6f8;
+  box-shadow: 1px 0px 10px 9px #b9e6f8;
 }
 
 /*Down here, working offline sometimes*/
 @font-face {
-  font-family: 'Lato';
+  font-family: "Lato";
   src: url("fonts/Lato-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }
-/*# sourceMappingURL=style.css.map */

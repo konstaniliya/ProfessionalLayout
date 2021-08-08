@@ -5,6 +5,8 @@
     font-style: normal
     font-weight: normal
 
+$theme-color: rgb(255, 120, 143)
+
 .container
     max-width: 1140px
     margin: 0 auto
@@ -46,7 +48,7 @@
     padding-left: 13px
     border-left-style: solid
     border-left-width: 16px
-    border-left-color: rgb(255, 120, 143)
+    border-left-color: $theme-color
 
 .cardsBottom
     position: relative
@@ -60,7 +62,7 @@
     color: #222222
 
 .pinkText
-    color: rgb(255, 120, 143)
+    color: $theme-color
     text-transform: uppercase
     font-weight: 400
     font-size: 32px
@@ -170,7 +172,7 @@
     font-size: 16px
     font-weight: 700
     line-height: 19px
-    color: #F16D7F
+    color: $theme-color
     margin-bottom: 20px
 
 .headerCatalog
@@ -216,8 +218,8 @@
 .buttonText
     font-size: 16px
     line-height: 19px
-    color: #F26376
-    border: 1px solid #f16d7f
+    color: $theme-color
+    border: 1px solid $theme-color
     padding: 12px 12px
 
 .BrowseButton
@@ -310,7 +312,7 @@
     display: flex
 
 .button
-    background: #F16D7F
+    background: $theme-color
     border-top-right-radius: 32px
     border-bottom-right-radius: 32px
     border-style: none
@@ -436,7 +438,7 @@ footer
     line-height: 28px
 
 .mega-link:hover
-    color: #F16d7f
+    color: $theme-color
 
 .menu-item
     margin-right: 46px
@@ -510,7 +512,7 @@ summary:focus
 .catalogHeaderText
     font-size: 24px
     line-height: 29px
-    color: #F16D7F
+    color: $theme-color
     font-weight: 400
     text-transform: uppercase
 .catalogLinkText
@@ -522,14 +524,14 @@ summary:focus
     text-decoration: none
 
 .navMenu:hover
-    color: #F16D7F
+    color: $theme-color
     font-weight: bold
 
 .pinkTextCatalog
     font-weight: 700
     font-size: 14px
     line-height: 17px
-    color: #F16D7F
+    color: $theme-color
     text-decoration: none
 .categoriesText
     font-weight: 600
@@ -552,7 +554,7 @@ summary:focus
     padding-right: 10px
 
 .filterCard:hover .filterText
-    color: #F16D7F
+    color: $theme-color
 .filterCard:hover .mega-box
     display: flex
     top: 25px
@@ -603,7 +605,7 @@ summary:focus
     line-height: 19px
     color: #c9c8c8
 .navText:hover
-    color: #F16D7F
+    color: $theme-color
 .pageLink
     text-decoration: none
 
@@ -622,7 +624,7 @@ summary:focus
     justify-content: space-between
 
 .cardPage
-    margin-bottom: 0
+    margin-bottom: 96px
 .demoPhoto
     display: flex
     justify-content: center
@@ -658,7 +660,7 @@ summary:focus
     font-weight: 300
     font-size: 24px
     line-height: 29px
-    color: #EF5B70
+    color: $theme-color
     border-bottom: 1px solid #EAEAEA
     padding-bottom: 65px
     text-align: center
@@ -692,7 +694,7 @@ summary:focus
     justify-content: space-around
     color: #ffffff
     padding: 12px
-    border: 2px solid #FF6A6A
+    border: 2px solid $theme-color
 
 .arrowLeft
     padding: 13px
@@ -711,60 +713,55 @@ summary:focus
     padding-right: 7px
 /*Shopping Cart*/
 .cartContent
-    padding-top: 32px
-    padding-bottom: 32px
     display: flex
     flex-wrap: wrap
-    justify-content: space-around
+    justify-content: space-between
 .formCart
     display: flex
     flex-direction: column
     margin-bottom: 64px
-.goods
-    margin-top: 64px
-    margin-bottom: 32px
-    max-width: 600px
 .item
     display: flex
-    margin-bottom: 36px
-    max-width: 600px
-    box-shadow: 0 5px 8px rgba(0,0,0,0.16)
-    height: 210px
+    margin-bottom: 40px
+    width: 652px
+    height: 306px
 .item:hover
-    box-shadow: 18px 5px 8px rgb(0, 0, 0 /16%)
-
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.13)
 .itemTop
     display: flex
     justify-content: space-between
-    width: 395px
-    margin-right: 16px
+    width: 100%
 .itemsBlock
-    margin-bottom: 62px
+    margin-bottom: 73px
 .itemText
-    margin-left: 12px
-    margin-top: 16px
-    padding-bottom: 32px
+    margin-left: 31px
+    margin-top: 22px
+    padding-bottom: 42px
+    width: 100%
 .listObject
-    margin-bottom: 5px
+    margin-bottom: 6px
     color: #000000
-    font-size: 18px
-    line-height: 16px
-
+    font-size: 22px
+    line-height: 26px
+    color: #575757
+.imageBlock
+    margin-right: 28px
 .itemHeader
     color: #000000
-    font-size: 18px
-    line-height: 16px
-    font-weight: bold
-    margin-bottom: 32px
+    font-size: 24px
+    line-height: 29px
+    margin-bottom: 42px
+    width: 200px
     text-transform: uppercase
 .itemList
     list-style: none
+    margin-bottom: 62px
 .textNumber
     position: absolute
     text-align: center
     left: 100px
     right: auto
-    border: 1px solid #9F9F9F
+    border: 1px solid #EAEAEA
     width: 40px
 
 .quantity
@@ -781,46 +778,58 @@ summary:focus
 .cartControls
     display: flex
     justify-content: space-between
+    margin-bottom: 129px
 
 .cartButton2:hover
-    box-shadow: 18px 5px 8px rgb(0, 0, 0 /16%)
+    box-shadow: 0px 0px 4px 0px black
 .cartControlLink
     text-decoration: none
 .shippingHeader
     color: #5e5e5e
-    padding-bottom: 32px
+    padding-bottom: 21px
     text-transform: uppercase
-    font-size: 18px
-    line-height: 16px
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
+    
 .formCartItem
-    margin-bottom: 16px
-    padding: 16px 90px 16px 16px
+    margin-bottom: 21px
+    width: 360px
+    padding: 15px 0px 15px 17px
+    border: 1px solid #A4A4A4
 .shippingButton
     padding: 10px 10px
     background-color: transparent
     border: 1px solid #5e5e5e
     width: 120px
+    color: #4A4A4A
+    border: 1px solid #A4A4A4
 .shippingButton:hover
-    box-shadow: 0px 0px 11px 5px rgb(0, 0, 0 / 16%)
+    box-shadow: 0px 0px 4px 0px black
 .shipping
-    margin-top: 64px
     flex-direction: column
 .blackTextCart
     color: #5e5e5e
     padding-left: 32px
+    font-size: 11px
+    line-height: 13px
+    color: #4A4A4A
 .totalLittleText
     color: #5e5e5e
     text-transform: uppercase
-    font-size: 14px
-    line-height: 16px
+    font-size: 11px
+    line-height: 13px
+    color: #4A4A4A
     padding-bottom: 16px
 .totalBigText
     color: #5e5e5e
     text-transform: uppercase
-    font-size: 18px
-    line-height: 16px
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
     border-bottom: 1px solid #b1b1b1
-    padding-bottom: 32px
+    padding-bottom: 21px
+    margin-bottom: 17px
 .summaryContent
     text-align: right
     background-color: #eaeaea
@@ -828,21 +837,22 @@ summary:focus
 .priceTextSummary
     padding-left: 32px
 .cartSubmitButtonText
-    color: #f1f0f0
+    color: #ffffff
     text-transform: uppercase
-    font-size: 14px
-    line-height: 16px
+    font-weight: 300
+    font-size: 16px
+    line-height: 19px
     padding: 16px 46px
 
 .cartSubmitButton
-    background-color: #f16d8a
+    background-color: $theme-color
     border-style: none
 .cartSubmitButton:focus
     outline-style: none
 .cartSubmitButton:hover
-    box-shadow: 1px 0px 10px 9px #dafa47
+    box-shadow: 1px 0px 10px 9px #afccf8
 .summaryContent:hover
-    box-shadow: 1px 0px 10px 9px #63c9f1
+    box-shadow: 1px 0px 10px 9px #b9e6f8
 
 /*Down here, working offline sometimes*/
 @font-face
