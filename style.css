@@ -237,7 +237,6 @@
   color: #000000;
   font-size: 13px;
   line-height: 16px;
-  margin-bottom: 12px;
   background-color: #f7e4e2;
   text-transform: uppercase;
 }
@@ -298,8 +297,14 @@
   font-size: 16px;
   line-height: 19px;
   color: #ff788f;
-  border: 1px solid #ff788f;
   padding: 12px 12px;
+  border: 1px solid #ff788f;
+}
+
+.buttonTextCard {
+  font-size: 16px;
+  line-height: 19px;
+  color: #ff788f;
 }
 
 .BrowseButton {
@@ -915,7 +920,7 @@ summary:focus {
           justify-content: space-between;
 }
 
-.cardPage {
+.registrationPage {
   margin-bottom: 96px;
 }
 
@@ -996,8 +1001,8 @@ summary:focus {
 }
 
 .BrowseButton:hover {
-  -webkit-box-shadow: 0 5px 8px rgba(0, 0, 0, 0.46);
-          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.46);
+  -webkit-box-shadow: 0px 0px 14px 3px #03fdfd59;
+          box-shadow: 0px 0px 14px 3px #03fdfd59;
 }
 
 .megaHeadingCart {
@@ -1210,6 +1215,15 @@ summary:focus {
   border: 1px solid #A4A4A4;
 }
 
+.formCartItem:hover {
+  -webkit-box-shadow: 0px 0px 4px 0px black;
+          box-shadow: 0px 0px 4px 0px black;
+}
+
+.formCartItem:focus {
+  outline-style: none;
+}
+
 .shippingButton {
   padding: 10px 10px;
   background-color: transparent;
@@ -1222,6 +1236,11 @@ summary:focus {
 .shippingButton:hover {
   -webkit-box-shadow: 0px 0px 4px 0px black;
           box-shadow: 0px 0px 4px 0px black;
+  cursor: pointer;
+}
+
+.shippingButton:focus {
+  outline-style: none;
 }
 
 .shipping {
@@ -1288,13 +1307,152 @@ summary:focus {
 }
 
 .cartSubmitButton:hover {
-  -webkit-box-shadow: 1px 0px 10px 9px #afccf8;
-          box-shadow: 1px 0px 10px 9px #afccf8;
+  -webkit-box-shadow: 1px 0px 10px 9px #e8c1ff;
+          box-shadow: 1px 0px 10px 9px #e8c1ff;
+  cursor: pointer;
 }
 
 .summaryContent:hover {
-  -webkit-box-shadow: 1px 0px 10px 9px #b9e6f8;
-          box-shadow: 1px 0px 10px 9px #b9e6f8;
+  -webkit-box-shadow: 1px 0px 10px 9px #ff788f;
+          box-shadow: 1px 0px 10px 9px #ff788f;
+}
+
+.registrationHeader {
+  color: #5e5e5e;
+  padding-bottom: 21px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.registrationText {
+  color: #5e5e5e;
+  padding-bottom: 50px;
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+.regListItem {
+  margin-bottom: 20px;
+  color: #5e5e5e;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.regListItem:before {
+  content: url(img/twitter.png);
+  margin-right: 20px;
+}
+
+.regList {
+  list-style: none;
+}
+
+.regContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 62px;
+}
+
+.regDataInput {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.regInput {
+  margin-bottom: 21px;
+  width: 360px;
+  padding: 15px 0px 15px 17px;
+  border: 1px solid #A4A4A4;
+}
+
+.regInput:hover {
+  -webkit-box-shadow: 0px 0px 4px 0px black;
+          box-shadow: 0px 0px 4px 0px black;
+}
+
+.regInput:focus {
+  outline-style: none;
+}
+
+.sex {
+  margin-bottom: 16px;
+}
+
+.sexText {
+  margin-right: 16px;
+  color: #5e5e5e;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.buttonReg {
+  font-size: 18px;
+  line-height: 19px;
+  padding: 12px 12px;
+  color: #ffffff;
+  background-color: #ff788f;
+  border-style: none;
+  width: 200px;
+}
+
+.buttonReg:hover {
+  -webkit-box-shadow: 1px 0px 10px 9px #e8c1ff;
+          box-shadow: 1px 0px 10px 9px #e8c1ff;
+  cursor: pointer;
+}
+
+.buttonReg:focus {
+  outline-style: none;
+}
+
+.registrationArticle {
+  max-width: 500px;
+}
+
+.formRegText {
+  margin-bottom: 16px;
+  color: #5e5e5e;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 19px;
+}
+
+.passwordhelp {
+  font-size: 11px;
+  width: 360px;
+  margin-bottom: 32px;
+}
+
+.regArrow {
+  -webkit-filter: invert(1);
+          filter: invert(1);
+}
+
+.buttonRegContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.buttonRegText {
+  padding-left: 30px;
 }
 
 /*Down here, working offline sometimes*/
